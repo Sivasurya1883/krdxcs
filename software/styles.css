@@ -1,0 +1,189 @@
+/* General Styling */
+body {
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Themes */
+.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.light-theme {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Header Styling */
+header {
+    width: 100%;
+    text-align: center;
+    padding: 3rem 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://example.com/background-image.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Main Content Styling */
+main {
+    width: 90%;
+    max-width: 1200px;
+    padding: 2rem 1rem;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.intro-content {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.text {
+    flex: 1;
+    padding: 2rem;
+    background: linear-gradient(to bottom right, #0073e6, #00aaff);
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.text h2 {
+    color: #ffdd57;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.text p, .text ul {
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+.text ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.text ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.text ul li .checkmark {
+    color: #ffdd57;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Technologies Used Section */
+.technologies-used {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.technologies-used h2 {
+    color: #ffdd57;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}
+
+.tech-item {
+    text-align: center;
+}
+
+.tech-item img {
+    max-width: 80px;
+    height: auto;
+}
+
+.tech-item p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #000000;
+}
+
+/* Contact Us Section */
+.contact-us {
+    text-align: center;
+    padding: 2rem;
+    background: #0073e6;
+    color: white;
+    border-radius: 12px;
+    margin-bottom: 3rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact-us h2 {
+    color: #ffdd57;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.contact-us p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+a {
+    color: #ffdd57;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+    background-color: #0073e6;
+    color: #fff;
+}
+
+footer .contact {
+    margin: 0 auto;
+    max-width: 600px;
+}

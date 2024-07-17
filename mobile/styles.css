@@ -8,6 +8,13 @@ body {
     align-items: center;
 }
 
+/* Gradient Background */
+.gradient-background {
+    background: linear-gradient(to top right, #000000, #1a1a1a, #333333, #4d4d4d);
+    color: white;
+    text-align: center;
+}
+
 /* Themes */
 .dark-theme {
     background-color: #121212;
@@ -57,10 +64,16 @@ main {
 
 .intro-content {
     display: flex;
-    flex: 1;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 4rem;
+    gap: 2rem;
+}
+
+@media(min-width: 768px) {
+    .intro-content {
+        flex-direction: row;
+    }
 }
 
 .text {
